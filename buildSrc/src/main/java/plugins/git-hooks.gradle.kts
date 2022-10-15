@@ -11,6 +11,7 @@ tasks {
             rename("(.*).sh", "$1")
         }
         into("$rootDir/.git/hooks")
+        fileMode = 0x777
     }
 
     register<Exec>("installGitHooks") {
