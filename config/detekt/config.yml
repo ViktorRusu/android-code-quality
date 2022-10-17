@@ -243,8 +243,6 @@ style:
     excludeGuardClauses: true
   SpacingBetweenPackageAndImports:
     active: true
-  TrimMultilineRawString:
-    active: true
   UnderscoresInNumericLiterals:
     active: true
   UnnecessaryAnnotationUseSiteTarget:
